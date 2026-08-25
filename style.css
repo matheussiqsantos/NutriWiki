@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1a572e;
+    color: #2a2620;
+    line-height: 1.7em;
+}
+
+header {
+    background-color: #f7f2e7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    box-shadow: 0px 2px 13px 4px rgba(0, 0, 0, 0.2);
+    border-bottom: 6px solid #e2831a;
+}
+
+header h1 {
+    font-size: 1.6em;
+    text-align: center;
+    color: #1a572e;
+}
+
+
+main {
+    background-color: #f7f2e7;
+    max-width: 800px;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 40px 50px;
+}
+
+section {
+    margin-bottom: 50px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #e6ddc8;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #1a572e;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #e2831a;
+    display: inline-block;
+}
+
+h3 {
+    color: #1a572e;
+    font-size: 1.2em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #b8650f;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 8px;
+    border-left: 4px solid #e2831a;
+    padding-left: 10px;
+}
+
+p {
+    margin-bottom: 12px;
+}
+
+a {
+    color: #b8650f;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1a572e;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    border: 2px solid #e6ddc8;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 20px 0;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.8em;
+    color: #555;
+    margin-top: 8px;
+}
+
+#vitamina\ c {
+    background-color: #fbeed9;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+#referencias li {
+    list-style-type: none;
+    font-size: 0.8em;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+
+footer {
+    background-color: #f7f2e7;
+    margin-top: 60px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 4px solid #e2831a;
+}
+
+@media (max-width: 700px) {
+    main {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 1.3em;
+    }
+}
